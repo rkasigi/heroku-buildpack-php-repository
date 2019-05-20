@@ -1,0 +1,27 @@
+{
+    "packages": [
+      [
+        {
+          "conflict": {
+            "heroku-sys/hhvm": "*"
+          },
+          "dist": {
+            "type": "heroku-sys-tar",
+            "url": "https://raw.githubusercontent.com/rkasigi/heroku-buildpack-php-repository/master/dist-heroku-18-stable/extensions/no-debug-non-zts-20180731/oci8.tar.gz"
+          },
+          "extra": {},
+          "name": "heroku-sys/ext-oci8",
+          "provide": {},
+          "replace": {},
+          "require": {
+            "heroku-sys/heroku": "^18.0.0",
+            "heroku-sys/php": "7.3.*",
+            "heroku/installer-plugin": "^1.2.0"
+          },
+          "time": "2019-05-20 20:20:00",
+          "type": "heroku-sys-php-extension",
+          "version": "2.2.0"
+        }
+      ]
+    ]
+  }

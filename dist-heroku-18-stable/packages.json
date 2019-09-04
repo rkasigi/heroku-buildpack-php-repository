@@ -41,7 +41,7 @@
           },
           "time": "2019-09-03 11:53:00",
           "type": "heroku-sys-php-extension",
-          "version": "2.2.0"
+          "version": "10.3.8"
         }
       ]
     ]
